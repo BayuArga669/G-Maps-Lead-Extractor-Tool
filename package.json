@@ -1,0 +1,13 @@
+{
+  "name": "gmaps-lead-extractor",
+  "version": "1.0.0",
+  "description": "Tool CLI untuk mengekstrak data nama bisnis dan nomor telepon dari Google Maps",
+  "main": "scraper.js",
+  "scripts": {
+    "start": "node scraper.js"
+  },
+  "dependencies": {
+    "playwright": "^1.52.0",
+    "csv-writer": "^1.6.0"
+  }
+}
